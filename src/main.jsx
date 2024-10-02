@@ -4,7 +4,10 @@ import App from './App.jsx';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-createRoot(document.getElementById('root')).render(
+const rootElem = document.getElementById('root');
+const root = createRoot(rootElem);
+
+root.render(
   <StrictMode>
     <App />
   </StrictMode>
