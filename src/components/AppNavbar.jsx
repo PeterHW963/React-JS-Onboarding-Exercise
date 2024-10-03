@@ -12,7 +12,7 @@ function AppNavbar() {
         <Navbar key={expand} expand={expand} fixed='top' bg='dark' data-bs-theme="dark" className="tertiary mb-3">
           <Container fluid>
             <Navbar.Brand>My Basic App.</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggler'/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav>
                 <Nav.Link href="#action1">Home</Nav.Link>

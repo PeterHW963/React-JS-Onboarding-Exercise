@@ -6,15 +6,13 @@
 
 .welcomeMsg {
   text-align: left;
-
-  margin: 20px;
+  margin: 3vw 10vw;
   font-weight: bold;
   font-size: x-large;
 }
 
 body {
   font-family: 'Inter Tight';
-  margin: 0;
   display: block;
   /* place-items: center; */
   min-width: 320px;
@@ -26,9 +24,19 @@ body {
   width: 100%;
 }
 
+.navbar .navbar-brand {
+  margin-left: 9vw;
+}
+
+.toggler {
+  margin-right: 9vw;
+}
+
 .navbar .navbar-collapse {
   text-align: left;
+  margin-left: 9vw;
 }
+
 
 
 /* h1 {
