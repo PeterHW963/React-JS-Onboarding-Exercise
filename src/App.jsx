@@ -1,11 +1,12 @@
 import Tasks from './components/Tasks'
-import Navbar from './components/Navbar'
+import AppNavbar from './components/AppNavbar'
 import './App.css'
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <AppNavbar />
+      <div className='welcomeMsg'>Welcome!</div>
       <Tasks />
     </div>
   )
